@@ -9,7 +9,7 @@ The sensor is automatically setup with a default confuguration with the followin
  - conversion time 800 ms
  - continuous conversion mode
 
-If you wish you can change the configuration by using the method configure and the appropriate configuration values (see datasheet of the sensor).
+If you wish you can change the configuration by using the method configure() and the appropriate configuration values (see datasheet of the sensor).
 
 The library also supports methods to get the manufacturer ID and the device ID. However these are constant values.
 The manufacturer ID always reads 0x5449 ("TI") and the device ID always reads 0x3001, so these values are of limited use. Thus you cannot distingish 
