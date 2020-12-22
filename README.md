@@ -16,3 +16,6 @@ The manufacturer ID always reads 0x5449 ("TI") and the device ID always reads 0x
 individual sensors based on their IDs.
 
 
+Included is a very simple sample sketch for Arduino which shows how to read the current brightness from the sensor.
+
+The sketch has been tested with an NodeMCU-32 board.
